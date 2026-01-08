@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Skill Swap Hub</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="index.html">Skill Swap Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 active" href="index.html">Home</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-lg-3 py-3 py-lg-4" href="#" data-bs-toggle="dropdown">Hobbies</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="hobbies/coding.html">Coding</a></li>
+              <li><a class="dropdown-item" href="hobbies/baking.html">Baking</a></li>
+              <li><a class="dropdown-item" href="hobbies/art.html">Art</a></li>
+              <li><a class="dropdown-item" href="hobbies/ai.html">AI Tools</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="register.html">Register</a></li>
+        </ul>
+
+        <a href="profile.html" class="ms-3">
+          <img src="assets/img/user-avatar.webp" alt="Profile" class="rounded-circle"
+               style="width:40px; height:40px; object-fit:cover;">
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead" style="background-image: url('assets/img/home-bg.webp')">
+    <div class="container position-relative px-4 px-lg-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <div class="site-heading">
+            <h1>Community Skill Swap Hub</h1>
+            <span class="subheading">Explore hobbies, share resources, and connect with others</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container px-4 px-lg-5 mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+
+        <form class="mb-4">
+          <input class="form-control" type="text" placeholder="Search resources or tools...">
+        </form>
+
+        <div class="mb-4 text-center">
+          <a href="#posts" class="btn btn-outline-secondary mb-3">Continue browsing as guest</a>
+          <p class="mb-2">To unlock full features like posting and profile management:</p>
+          <a href="register.html" class="btn btn-outline-primary">Create a profile</a>
+        </div>
+
+        <select class="form-select mb-4">
+          <option selected>Filter by category</option>
+          <option value="Coding">Coding</option>
+          <option value="Baking">Baking</option>
+          <option value="Art">Art</option>
+          <option value="AI Tools">AI Tools</option>
+        </select>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container px-4 px-lg-5" id="posts">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+
+        
+        <div class="post-preview">
+          <a href="posts/coding-python.html">
+            <img src="assets/img/post-coding.jpg" class="img-fluid rounded mb-3">
+            <h2 class="post-title">Getting Started with Python</h2>
+            <h3 class="post-subtitle">A beginner-friendly guide to programming.</h3>
+          </a>
+          <p class="post-meta">Category: Coding • Posted by Robert</p>
+          <button class="btn btn-sm btn-outline-primary">👍 Like</button>
+          <button class="btn btn-sm btn-outline-secondary">💬 Comment</button>
+
+         
+          <div class="mt-3 p-3 border rounded bg-light">
+            <h5>Comments</h5>
+            <p><strong>Alex:</strong> Really helpful introduction, thanks!</p>
+            <p><strong>Maria:</strong> This made Python much easier to understand.</p>
+
+            <form class="mt-3">
+              <textarea class="form-control mb-2" placeholder="Add a comment..." rows="2"></textarea>
+              <button class="btn btn-sm btn-primary">Post Comment</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+
+      
+        <div class="post-preview">
+          <a href="posts/post-baking.html">
+            <img src="assets/img/post-baking.jpg" class="img-fluid rounded mb-3">
+            <h2 class="post-title">Top Baking Tips</h2>
+            <h3 class="post-subtitle">Improve your cakes and bread.</h3>
+          </a>
+          <p class="post-meta">Category: Baking • Posted by Robert</p>
+          <button class="btn btn-sm btn-outline-primary">👍 Like</button>
+          <button class="btn btn-sm btn-outline-secondary">💬 Comment</button>
+
+         
+          <div class="mt-3 p-3 border rounded bg-light">
+            <h5>Comments</h5>
+            <p><strong>Laura:</strong> These tips actually improved my sponge cake!</p>
+            <p><strong>Daniel:</strong> Super useful, thanks for sharing.</p>
+
+            <form class="mt-3">
+              <textarea class="form-control mb-2" placeholder="Add a comment..." rows="2"></textarea>
+              <button class="btn btn-sm btn-primary">Post Comment</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+
+        
+        <div class="post-preview">
+          <a href="posts/art-inspiration.html">
+            <img src="assets/img/post-art.jpg" class="img-fluid rounded mb-3">
+            <h2 class="post-title">Creative Art Inspiration</h2>
+            <h3 class="post-subtitle">Explore new techniques.</h3>
+          </a>
+          <p class="post-meta">Category: Art • Posted by Robert</p>
+          <button class="btn btn-sm btn-outline-primary">👍 Like</button>
+          <button class="btn btn-sm btn-outline-secondary">💬 Comment</button>
+
+          <div class="mt-3 p-3 border rounded bg-light">
+            <h5>Comments</h5>
+            <p><strong>Sara:</strong> Loved the ideas here, very inspiring!</p>
+            <p><strong>Tom:</strong> I tried one of these techniques today.</p>
+
+            <form class="mt-3">
+              <textarea class="form-control mb-2" placeholder="Add a comment..." rows="2"></textarea>
+              <button class="btn btn-sm btn-primary">Post Comment</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+
+      
+        <div class="post-preview">
+          <a href="posts/ai-creativity.html">
+            <img src="assets/img/post-ai.jpg" class="img-fluid rounded mb-3">
+            <h2 class="post-title">AI Tools for Creativity</h2>
+            <h3 class="post-subtitle">Boost your learning and ideas.</h3>
+          </a>
+          <p class="post-meta">Category: AI Tools • Posted by Robert</p>
+          <button class="btn btn-sm btn-outline-primary">👍 Like</button>
+          <button class="btn btn-sm btn-outline-secondary">💬 Comment</button>
+
+       
+          <div class="mt-3 p-3 border rounded bg-light">
+            <h5>Comments</h5>
+            <p><strong>Elena:</strong> AI tools are so powerful for art!</p>
+            <p><strong>Mark:</strong> Great resource, thanks for posting.</p>
+
+            <form class="mt-3">
+              <textarea class="form-control mb-2" placeholder="Add a comment..." rows="2"></textarea>
+              <button class="btn btn-sm btn-primary">Post Comment</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+
+      
+        <h3 id="addpost" class="mt-5">Add a New Resource</h3>
+        <form>
+          <div class="form-floating mb-3">
+            <input class="form-control" id="title" type="text" placeholder="Title" required>
+            <label for="title">Title *</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <textarea class="form-control" id="description" placeholder="Description" style="height: 8rem" required></textarea>
+            <label for="description">Description *</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input class="form-control" id="link" type="url" placeholder="Resource link" required>
+            <label for="link">Resource Link *</label>
+          </div>
+
+          <select class="form-select mb-3" required>
+            <option selected disabled>Choose Category *</option>
+            <option value="Coding">Coding</option>
+            <option value="Baking">Baking</option>
+            <option value="Art">Art</option>
+            <option value="AI Tools">AI Tools</option>
+          </select>
+
+          <button class="btn btn-primary">Publish</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="border-top">
+    <div class="container px-4 px-lg-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <div class="small text-center text-muted fst-italic">© Skill Swap Hub 2026</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
